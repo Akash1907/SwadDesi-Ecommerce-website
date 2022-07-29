@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#logo{
+    height: 90px;
+    padding-left: 8px;
+    padding-top: -8px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+}
+#navbar li{
+    list-style:none;
+    padding: 0 15px;
+    position: relative;
+    font-size: 35px;
+    margin: 8px;
+}
+.font{
+    color: rgb(121, 19, 20);
+    font-size: 30px;
+}
+#title{
+    display: flex;
+}
+h2#swad{
+    padding-top: 30px;
+    margin-left: -10px;
+    color: rgb(121, 19, 20);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.search{
+    display: flex;
+}
+#search-input{
+    position: relative;
+    height: 45px;
+    width: 600px;
+    border: 1px solid rgb(121, 19, 20);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 8px;
+    outline-color: rgb(121, 19, 20);
+}
+#search-input:hover{
+    border: 3px solid rgb(121, 19, 20);
+    transition: 0.3s ease;
+}
+#search-icon{
+    position: absolute;
+    color: rgb(121, 19, 20);
+    font-size: 25px;
+    left: 955px;
+    padding-top: 8px;
+    font-weight: 100;
+}
+#search-input::placeholder{
+    font-size: 20px;
+    color: rgba(121, 19, 20, 0.3);
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#banner img{
+    width: 100%;
+}
+#tagline{
+    background-image: url("images/background.webp");
+    height: 300px;
+}
+#tagline h2{
+    text-align: center;
+    font-size: 55px;
+    padding-top:40px;
+    font-family: 'Dancing Script', cursive;    
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: rgb(121, 19, 20);
+}
+#tagline p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 450;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 50px 0 50px;
+}
+.details h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(121, 19, 20);
+}
+.details p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(243, 191, 29);
+}
+.btn{
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: rgb(121, 19, 20);
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(121, 19, 20);
+    font-weight: 600;
+    border: 2px solid rgb(121, 19, 20);
+}
+hr{
+    height: .1px;
+    margin: 20px 50px 0 50px;
+    color: rgb(0, 0, 0);
+}
+#row-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+}
+#row-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 0 50px;
+}
+#third{
+    display: flex;
+    justify-content: space-between;
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+}
+#first img{
+    height: 350px;
+    width: 720px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#second img{
+    height: 350px;
+    width: 340px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left:10px;
+}
+#second :hover{
+    opacity: .8;
+}
+#first:hover{
+    opacity: .8;
+}
+#third :hover{
+    opacity: .8;
+}
+#fourth :hover{
+    opacity: .8;
+}
+#first{
+    position: relative;
+}
+#fourth{
+    position: relative;
+}
+#namkeen{
+    position: relative;
+}
+#dry{
+    position:relative;
+}
+
+#teej{
+    position: relative;
+}
+#snacks{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    top: 80%;
+    left: 40%;
+    cursor: pointer;
+} 
+#third img{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left:8px;
+}
+#fourth img{
+    height: 350px;
+    width: 695px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#order{
+    margin: 120px 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(243, 191, 29);
+    padding: 40px 70px 40px 70px;
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid rgb(121, 19, 20);
+}
+#gulabo{
+    position: absolute;
+    top: auto;
+    left: 50%;
+}
+#gulabo img{
+    height: 210px;
+    margin: auto;
+}
+#vistaar{
+    font-family: 'Montserrat', sans-serif;
+}
+#vistaar h1{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: rgb(121, 19, 20);
+}
+#vistaar p{
+    font-size: 20px;
+    color: rgb(121, 19, 20);
+}
+.top-sellers{
+    margin: 30px 32px 0 50px;
+    display: flex;
+}
+.card{
+    height:400px;
+    width:300px;
+    border: 1.5px solid rgb(121, 19, 20);
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.card img{
+    height: 70%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.card :hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.card .container{
+    margin: 20px 0 0 20px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(243, 191, 29);
+}
+.container .name{
+    font-size: 19px;
+    margin-top: 6px;
+    font-weight: 900;
+    color: rgb(121,19,20);
+}
+.container .price{
+    font-size: 15px;
+    margin-top: 6px;
+    font-weight: 900;
+}
+#big-image{
+    position:  relative;
+}
+#big-image img{
+    width: 93%;
+    height: 900px;
+    margin: 30px 50px 50px 50px;
+    border-radius: 20px;
+}
+#big-image #big{
+    position: relative;
+}
+#big-image #small p{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    font-weight: 570;
+    top: 40%;
+    left: 16%;
+    color: #fff;
+}
+#big-image #small img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    right: 20px;
+    top: 165px;
+}
+
+#newsletter{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(121, 19, 20);
+    height: 200px;
+}
+#news{
+    padding-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+#news h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+#news p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+#input input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding-left: 10px;
+}
+#input input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(121, 19, 20);
+}
+#bttn button{
+    height: 50px;
+    width: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: rgb(243, 191, 29);
+    color:rgb(121, 19, 20);
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+#bttn button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#map{
+    position: relative;
+}
+#content{
+    margin: 300px 50px 20px 310px;
+    border: 1px solid rgb(121, 19, 20);
+    text-align: left;
+    padding: 100px 60px 0 450px;
+    height: 600px;
+    border-radius: 15px;
+
+}
+#content h1{
+    color: rgb(121, 19, 20);
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#content p{
+    color: rgb(121, 19, 20);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    margin-top: 30px;
+    text-align: justify;
+}
+#bot{
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: rgb(121, 19, 20);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+#bot:hover{
+    background-color: white;
+    color: rgb(121, 19, 20);
+    border: 1px solid rgb(121, 19, 20);
+    cursor: pointer;
+}
+#maaap{
+    position: absolute;
+    top: -210px;
+    left: 67px;
+    background-color: #fff;
+    height: 600px;
+    width: 600px;
+}
+#jamun{
+    position: absolute;
+    right: 70px;
+    top: -150px;
+    height: 150px;
+}
+#footer{
+    background-color: rgb(121, 19, 20);
+    margin-top: 300px;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#footer hr{
+    max-height:.1px;
+    top: 30px;
+    border: 0.1px solid white;
+     padding-top: 30px;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+}
+#lines{
+    padding-left: 50px;
+    width: 390px;
+}
+#logo-name{
+    display: flex;
+}
+#logo-name img{
+    height: 100px;
+    width: 100px;
+    margin-left: -15px;
+    padding-top: -20px;
+}
+.head{
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 34px;
+}
+#logo-name h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: -30px;
+    padding-top: 49px;
+}
+#desc{
+    display: flex;
+}
+#desc #descss{
+    padding-left: 20px;
+}
+.para{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20px;
+}
+#follow{
+    margin-right: 50px;
+}
+#template i{
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px;
+    margin-right: 10px;
+    color: rgb(121, 19, 20);
+    cursor: pointer;
+}
+#template{
+    padding-top: 20px;
+}
+#last{
+    margin: 10px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+#temp{
+    margin-top: 20px;
+}
+#temp img{
+    height: 22px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+}
